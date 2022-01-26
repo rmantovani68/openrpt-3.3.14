@@ -1,10 +1,10 @@
 Name: xtuple-openrpt
-Version: 3.3.9
+Version: 3.3.14
 Release: 1%{?dist}
 Summary: xTuple / PostBooks reporting utility and libraries
 License: CPAL
-Url: http://www.xtuple.com/openrpt/
-Source: https://github.com/xtuple/openrpt/archive/v%version.tar.gz
+Url: https://github.com/rmantovani68/openrpt-3.3.14/
+Source: https://github.com/rmantovani68/openrpt-3.3.14/archive/v%version.tar.gz
 BuildRequires: desktop-file-utils
 BuildRequires: qt-devel
 BuildRequires: libdmtx-devel
