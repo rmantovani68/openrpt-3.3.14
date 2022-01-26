@@ -113,4 +113,4 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications *.desktop
 %changelog
 * Wed Feb 25 2015 Daniel Pocock <daniel@pocock.pro> - 3.3.9-1
 - Initial RPM packaging.
-
+* Wed Jan 25 2022 Roberto Mantovani <rmantovani68@gmail.com> - 3.3.14
