@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'texteditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -374,41 +374,41 @@ public:
 
     void retranslateUi(QDialog *TextEditor)
     {
-        TextEditor->setWindowTitle(QApplication::translate("TextEditor", "Properties (Text)", nullptr));
-        TextLabel1_4->setText(QApplication::translate("TextEditor", "Bottom Padding:", nullptr));
-        TextLabel1_3->setText(QApplication::translate("TextEditor", "Query Source:", nullptr));
-        TextLabel1->setText(QApplication::translate("TextEditor", "Column:", nullptr));
-        bgHAlign->setTitle(QApplication::translate("TextEditor", "HAlign", nullptr));
-        rbHAlignNone->setText(QApplication::translate("TextEditor", "None", nullptr));
-        rbHAlignLeft->setText(QApplication::translate("TextEditor", "Left", nullptr));
-        rbHAlignCenter->setText(QApplication::translate("TextEditor", "Center", nullptr));
-        rbHAlignRight->setText(QApplication::translate("TextEditor", "Right", nullptr));
-        bgVAlign->setTitle(QApplication::translate("TextEditor", "VAlign", nullptr));
-        rbVAlignNone->setText(QApplication::translate("TextEditor", "None", nullptr));
-        rbVAlignTop->setText(QApplication::translate("TextEditor", "Top", nullptr));
-        rbVAlignMiddle->setText(QApplication::translate("TextEditor", "Middle", nullptr));
-        rbVAlignBottom->setText(QApplication::translate("TextEditor", "Bottom", nullptr));
-        GroupBox1->setTitle(QApplication::translate("TextEditor", "Position/Size", nullptr));
-        leHeight->setText(QApplication::translate("TextEditor", "0.01", nullptr));
-        leWidth->setText(QApplication::translate("TextEditor", "0.01", nullptr));
-        TextLabel2->setText(QApplication::translate("TextEditor", "Y:", nullptr));
-        TextLabel4->setText(QApplication::translate("TextEditor", "Height:", nullptr));
-        TextLabel1_3_2->setText(QApplication::translate("TextEditor", "X:", nullptr));
-        TextLabel3->setText(QApplication::translate("TextEditor", "Width:", nullptr));
-        TextLabel5->setText(QApplication::translate("TextEditor", "in inches", nullptr));
-        leYPos->setText(QApplication::translate("TextEditor", "0.00", nullptr));
-        leXPos->setText(QApplication::translate("TextEditor", "0.00", nullptr));
-        TextLabel1_2->setText(QApplication::translate("TextEditor", "Preview:", nullptr));
-        labelPreview->setText(QApplication::translate("TextEditor", "Preview Area", nullptr));
-        buttonOk->setText(QApplication::translate("TextEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("TextEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("TextEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("TextEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
-        btnFont->setText(QApplication::translate("TextEditor", "&Font...", nullptr));
+        TextEditor->setWindowTitle(QCoreApplication::translate("TextEditor", "Properties (Text)", nullptr));
+        TextLabel1_4->setText(QCoreApplication::translate("TextEditor", "Bottom Padding:", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("TextEditor", "Query Source:", nullptr));
+        TextLabel1->setText(QCoreApplication::translate("TextEditor", "Column:", nullptr));
+        bgHAlign->setTitle(QCoreApplication::translate("TextEditor", "HAlign", nullptr));
+        rbHAlignNone->setText(QCoreApplication::translate("TextEditor", "None", nullptr));
+        rbHAlignLeft->setText(QCoreApplication::translate("TextEditor", "Left", nullptr));
+        rbHAlignCenter->setText(QCoreApplication::translate("TextEditor", "Center", nullptr));
+        rbHAlignRight->setText(QCoreApplication::translate("TextEditor", "Right", nullptr));
+        bgVAlign->setTitle(QCoreApplication::translate("TextEditor", "VAlign", nullptr));
+        rbVAlignNone->setText(QCoreApplication::translate("TextEditor", "None", nullptr));
+        rbVAlignTop->setText(QCoreApplication::translate("TextEditor", "Top", nullptr));
+        rbVAlignMiddle->setText(QCoreApplication::translate("TextEditor", "Middle", nullptr));
+        rbVAlignBottom->setText(QCoreApplication::translate("TextEditor", "Bottom", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("TextEditor", "Position/Size", nullptr));
+        leHeight->setText(QCoreApplication::translate("TextEditor", "0.01", nullptr));
+        leWidth->setText(QCoreApplication::translate("TextEditor", "0.01", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("TextEditor", "Y:", nullptr));
+        TextLabel4->setText(QCoreApplication::translate("TextEditor", "Height:", nullptr));
+        TextLabel1_3_2->setText(QCoreApplication::translate("TextEditor", "X:", nullptr));
+        TextLabel3->setText(QCoreApplication::translate("TextEditor", "Width:", nullptr));
+        TextLabel5->setText(QCoreApplication::translate("TextEditor", "in inches", nullptr));
+        leYPos->setText(QCoreApplication::translate("TextEditor", "0.00", nullptr));
+        leXPos->setText(QCoreApplication::translate("TextEditor", "0.00", nullptr));
+        TextLabel1_2->setText(QCoreApplication::translate("TextEditor", "Preview:", nullptr));
+        labelPreview->setText(QCoreApplication::translate("TextEditor", "Preview Area", nullptr));
+        buttonOk->setText(QCoreApplication::translate("TextEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("TextEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("TextEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("TextEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
+        btnFont->setText(QCoreApplication::translate("TextEditor", "&Font...", nullptr));
     } // retranslateUi
 
 };

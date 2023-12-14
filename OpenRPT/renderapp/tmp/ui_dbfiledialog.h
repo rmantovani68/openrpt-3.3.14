@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'dbfiledialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -132,10 +132,10 @@ public:
 
         horizontalLayout->addLayout(vboxLayout);
 
-#ifndef QT_NO_SHORTCUT
+#if QT_CONFIG(shortcut)
         _lblReport->setBuddy(_name);
         _gradeLabel->setBuddy(_grade);
-#endif // QT_NO_SHORTCUT
+#endif // QT_CONFIG(shortcut)
         QWidget::setTabOrder(_name, _grade);
         QWidget::setTabOrder(_grade, _btnOk);
         QWidget::setTabOrder(_btnOk, _btnCancel);
@@ -150,15 +150,15 @@ public:
 
     void retranslateUi(QDialog *DBFileDialog)
     {
-        DBFileDialog->setWindowTitle(QApplication::translate("DBFileDialog", "Database File", nullptr));
+        DBFileDialog->setWindowTitle(QCoreApplication::translate("DBFileDialog", "Database File", nullptr));
         QTreeWidgetItem *___qtreewidgetitem = _list->headerItem();
-        ___qtreewidgetitem->setText(1, QApplication::translate("DBFileDialog", "Grade", nullptr));
-        ___qtreewidgetitem->setText(0, QApplication::translate("DBFileDialog", "Name", nullptr));
-        _lblReport->setText(QApplication::translate("DBFileDialog", "Report Name:", nullptr));
-        _gradeLabel->setText(QApplication::translate("DBFileDialog", "Grade:", nullptr));
-        _grade->setSpecialValueText(QApplication::translate("DBFileDialog", "##", nullptr));
-        _btnOk->setText(QApplication::translate("DBFileDialog", "&OK", nullptr));
-        _btnCancel->setText(QApplication::translate("DBFileDialog", "&Cancel", nullptr));
+        ___qtreewidgetitem->setText(1, QCoreApplication::translate("DBFileDialog", "Grade", nullptr));
+        ___qtreewidgetitem->setText(0, QCoreApplication::translate("DBFileDialog", "Name", nullptr));
+        _lblReport->setText(QCoreApplication::translate("DBFileDialog", "Report Name:", nullptr));
+        _gradeLabel->setText(QCoreApplication::translate("DBFileDialog", "Grade:", nullptr));
+        _grade->setSpecialValueText(QCoreApplication::translate("DBFileDialog", "##", nullptr));
+        _btnOk->setText(QCoreApplication::translate("DBFileDialog", "&OK", nullptr));
+        _btnCancel->setText(QCoreApplication::translate("DBFileDialog", "&Cancel", nullptr));
     } // retranslateUi
 
 };

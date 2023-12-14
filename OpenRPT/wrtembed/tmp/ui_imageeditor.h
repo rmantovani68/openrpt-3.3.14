@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'imageeditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -327,35 +327,35 @@ public:
 
     void retranslateUi(QDialog *ImageEditor)
     {
-        ImageEditor->setWindowTitle(QApplication::translate("ImageEditor", "Image Editor", nullptr));
-        ButtonGroup1->setTitle(QApplication::translate("ImageEditor", "Resize Mode", nullptr));
-        rbClip->setText(QApplication::translate("ImageEditor", "Clip", nullptr));
-        rbStretch->setText(QApplication::translate("ImageEditor", "Stretch", nullptr));
-        cbStatic->setText(QApplication::translate("ImageEditor", "Static Image", nullptr));
-        gbStatic->setTitle(QApplication::translate("ImageEditor", "Static", nullptr));
+        ImageEditor->setWindowTitle(QCoreApplication::translate("ImageEditor", "Image Editor", nullptr));
+        ButtonGroup1->setTitle(QCoreApplication::translate("ImageEditor", "Resize Mode", nullptr));
+        rbClip->setText(QCoreApplication::translate("ImageEditor", "Clip", nullptr));
+        rbStretch->setText(QCoreApplication::translate("ImageEditor", "Stretch", nullptr));
+        cbStatic->setText(QCoreApplication::translate("ImageEditor", "Static Image", nullptr));
+        gbStatic->setTitle(QCoreApplication::translate("ImageEditor", "Static", nullptr));
         frmPreview->setText(QString());
-        btnLoad->setText(QApplication::translate("ImageEditor", "&Load...", nullptr));
-        gbDynamic->setTitle(QApplication::translate("ImageEditor", "Database", nullptr));
-        TextLabel1->setText(QApplication::translate("ImageEditor", "Column:", nullptr));
-        TextLabel1_3->setText(QApplication::translate("ImageEditor", "Query Source:", nullptr));
-        GroupBox1->setTitle(QApplication::translate("ImageEditor", "Position/Size", nullptr));
-        leHeight->setText(QApplication::translate("ImageEditor", "0.01", nullptr));
-        leWidth->setText(QApplication::translate("ImageEditor", "0.01", nullptr));
-        TextLabel2->setText(QApplication::translate("ImageEditor", "Y:", nullptr));
-        TextLabel4->setText(QApplication::translate("ImageEditor", "Height:", nullptr));
-        TextLabel1_3_2->setText(QApplication::translate("ImageEditor", "X:", nullptr));
-        TextLabel3->setText(QApplication::translate("ImageEditor", "Width:", nullptr));
-        TextLabel5->setText(QApplication::translate("ImageEditor", "in inches", nullptr));
-        leYPos->setText(QApplication::translate("ImageEditor", "0.00", nullptr));
-        leXPos->setText(QApplication::translate("ImageEditor", "0.00", nullptr));
-        buttonOk->setText(QApplication::translate("ImageEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("ImageEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("ImageEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("ImageEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
+        btnLoad->setText(QCoreApplication::translate("ImageEditor", "&Load...", nullptr));
+        gbDynamic->setTitle(QCoreApplication::translate("ImageEditor", "Database", nullptr));
+        TextLabel1->setText(QCoreApplication::translate("ImageEditor", "Column:", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("ImageEditor", "Query Source:", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("ImageEditor", "Position/Size", nullptr));
+        leHeight->setText(QCoreApplication::translate("ImageEditor", "0.01", nullptr));
+        leWidth->setText(QCoreApplication::translate("ImageEditor", "0.01", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("ImageEditor", "Y:", nullptr));
+        TextLabel4->setText(QCoreApplication::translate("ImageEditor", "Height:", nullptr));
+        TextLabel1_3_2->setText(QCoreApplication::translate("ImageEditor", "X:", nullptr));
+        TextLabel3->setText(QCoreApplication::translate("ImageEditor", "Width:", nullptr));
+        TextLabel5->setText(QCoreApplication::translate("ImageEditor", "in inches", nullptr));
+        leYPos->setText(QCoreApplication::translate("ImageEditor", "0.00", nullptr));
+        leXPos->setText(QCoreApplication::translate("ImageEditor", "0.00", nullptr));
+        buttonOk->setText(QCoreApplication::translate("ImageEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("ImageEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("ImageEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("ImageEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };

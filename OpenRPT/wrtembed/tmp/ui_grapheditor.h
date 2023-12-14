@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'grapheditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -904,10 +904,10 @@ public:
 
         vboxLayout->addLayout(hboxLayout15);
 
-#ifndef QT_NO_SHORTCUT
+#if QT_CONFIG(shortcut)
         _vPadLabel->setBuddy(_vPadSpinbox);
         _hPadLabel->setBuddy(_hPadSpinbox);
-#endif // QT_NO_SHORTCUT
+#endif // QT_CONFIG(shortcut)
         QWidget::setTabOrder(_tabWidget, cbQuery);
         QWidget::setTabOrder(cbQuery, leXPos);
         QWidget::setTabOrder(leXPos, leWidth);
@@ -967,73 +967,73 @@ public:
 
     void retranslateUi(QDialog *GraphEditor)
     {
-        GraphEditor->setWindowTitle(QApplication::translate("GraphEditor", "Graph Editor", nullptr));
-        TextLabel1_3->setText(QApplication::translate("GraphEditor", "Query Source:", nullptr));
-        GroupBox1->setTitle(QApplication::translate("GraphEditor", "Position/Size", nullptr));
-        leHeight->setText(QApplication::translate("GraphEditor", "0.01", nullptr));
-        leWidth->setText(QApplication::translate("GraphEditor", "0.01", nullptr));
-        TextLabel2->setText(QApplication::translate("GraphEditor", "Y:", nullptr));
-        TextLabel4->setText(QApplication::translate("GraphEditor", "Height:", nullptr));
-        TextLabel1_3_2->setText(QApplication::translate("GraphEditor", "X:", nullptr));
-        TextLabel3->setText(QApplication::translate("GraphEditor", "Width:", nullptr));
-        TextLabel5->setText(QApplication::translate("GraphEditor", "in inches", nullptr));
-        leYPos->setText(QApplication::translate("GraphEditor", "0.00", nullptr));
-        leXPos->setText(QApplication::translate("GraphEditor", "0.00", nullptr));
-        GroupBoxPadding->setTitle(QApplication::translate("GraphEditor", "Padding (in pixels)", nullptr));
-        _vPadLabel->setText(QApplication::translate("GraphEditor", "Vertical:", nullptr));
-        _hPadLabel->setText(QApplication::translate("GraphEditor", "Horizontal:", nullptr));
-        GroupBox2->setTitle(QApplication::translate("GraphEditor", "Base Font", nullptr));
-        _btnBaseFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _gbTitle->setTitle(QApplication::translate("GraphEditor", "Title", nullptr));
-        _lblTitle->setText(QApplication::translate("GraphEditor", "Title:", nullptr));
-        _cbTitleUseBase->setText(QApplication::translate("GraphEditor", "Use Base Font", nullptr));
-        _gbTitleFont->setTitle(QApplication::translate("GraphEditor", "Title Font", nullptr));
-        _btnTitleFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _tabWidget->setTabText(_tabWidget->indexOf(generalTab), QApplication::translate("GraphEditor", "General", nullptr));
-        _gbDataAxis->setTitle(QApplication::translate("GraphEditor", "Data Axis Labels", nullptr));
-        _lblData->setText(QApplication::translate("GraphEditor", "Column:", nullptr));
-        _cbDataUseBase->setText(QApplication::translate("GraphEditor", "Use Base Font", nullptr));
-        _gbDataFont->setTitle(QApplication::translate("GraphEditor", "Data Axis Font", nullptr));
-        _btnDataFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _gbDataAxisTitle->setTitle(QApplication::translate("GraphEditor", "Data Axis Title", nullptr));
-        _lblDataTitle->setText(QApplication::translate("GraphEditor", "Title:", nullptr));
-        _cbDataTitleUseBase->setText(QApplication::translate("GraphEditor", "Use Base Font", nullptr));
-        _gbDataTitleFont->setTitle(QApplication::translate("GraphEditor", "Data Axis Title Font", nullptr));
-        _btnDataTitleFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _tabWidget->setTabText(_tabWidget->indexOf(dataTab), QApplication::translate("GraphEditor", "Data Axis", nullptr));
-        _lblMin->setText(QApplication::translate("GraphEditor", "Min:", nullptr));
-        _lblMax->setText(QApplication::translate("GraphEditor", "Max:", nullptr));
-        _cbAutoMinMax->setText(QApplication::translate("GraphEditor", "Expand Min/Max if needed", nullptr));
-        _cbValueUseBase->setText(QApplication::translate("GraphEditor", "Use Base Font", nullptr));
-        _gbValueFont->setTitle(QApplication::translate("GraphEditor", "Value Axis Font", nullptr));
-        _btnValueFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _gbDataAxisTitle_2->setTitle(QApplication::translate("GraphEditor", "Value Axis Title", nullptr));
-        _lblValueTitle->setText(QApplication::translate("GraphEditor", "Title:", nullptr));
-        _cbValueTitleUseBase->setText(QApplication::translate("GraphEditor", "Use Base Font", nullptr));
-        _gbValueTitleFont->setTitle(QApplication::translate("GraphEditor", "Value Axis Title Font", nullptr));
-        _btnValueTitleFont->setText(QApplication::translate("GraphEditor", "Font...", nullptr));
-        _tabWidget->setTabText(_tabWidget->indexOf(valueTab), QApplication::translate("GraphEditor", "Value Axis", nullptr));
-        _lblSeries->setText(QApplication::translate("GraphEditor", "Series:", nullptr));
-        _btnNewSeries->setText(QApplication::translate("GraphEditor", "New", nullptr));
-        _btnRemoveSeries->setText(QApplication::translate("GraphEditor", "Remove", nullptr));
-        _gbSeriesProperties->setTitle(QApplication::translate("GraphEditor", "Series Properties", nullptr));
-        _lblSeriesColor->setText(QApplication::translate("GraphEditor", "Color:", nullptr));
-        _btnEditColors->setText(QApplication::translate("GraphEditor", "Edit", nullptr));
-        _lblSeriesName->setText(QApplication::translate("GraphEditor", "Name:", nullptr));
-        _lblSeriesColumn->setText(QApplication::translate("GraphEditor", "Column:", nullptr));
-        _gbSeriesStyle->setTitle(QApplication::translate("GraphEditor", "Style", nullptr));
-        _cbSeriesStyleBars->setText(QApplication::translate("GraphEditor", "Bars", nullptr));
-        _cbSeriesStyleLines->setText(QApplication::translate("GraphEditor", "Lines", nullptr));
-        _cbSeriesStylePoints->setText(QApplication::translate("GraphEditor", "Points", nullptr));
-        _tabWidget->setTabText(_tabWidget->indexOf(seriesTab), QApplication::translate("GraphEditor", "Series", nullptr));
-        buttonOk->setText(QApplication::translate("GraphEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("GraphEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("GraphEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("GraphEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
+        GraphEditor->setWindowTitle(QCoreApplication::translate("GraphEditor", "Graph Editor", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("GraphEditor", "Query Source:", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("GraphEditor", "Position/Size", nullptr));
+        leHeight->setText(QCoreApplication::translate("GraphEditor", "0.01", nullptr));
+        leWidth->setText(QCoreApplication::translate("GraphEditor", "0.01", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("GraphEditor", "Y:", nullptr));
+        TextLabel4->setText(QCoreApplication::translate("GraphEditor", "Height:", nullptr));
+        TextLabel1_3_2->setText(QCoreApplication::translate("GraphEditor", "X:", nullptr));
+        TextLabel3->setText(QCoreApplication::translate("GraphEditor", "Width:", nullptr));
+        TextLabel5->setText(QCoreApplication::translate("GraphEditor", "in inches", nullptr));
+        leYPos->setText(QCoreApplication::translate("GraphEditor", "0.00", nullptr));
+        leXPos->setText(QCoreApplication::translate("GraphEditor", "0.00", nullptr));
+        GroupBoxPadding->setTitle(QCoreApplication::translate("GraphEditor", "Padding (in pixels)", nullptr));
+        _vPadLabel->setText(QCoreApplication::translate("GraphEditor", "Vertical:", nullptr));
+        _hPadLabel->setText(QCoreApplication::translate("GraphEditor", "Horizontal:", nullptr));
+        GroupBox2->setTitle(QCoreApplication::translate("GraphEditor", "Base Font", nullptr));
+        _btnBaseFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _gbTitle->setTitle(QCoreApplication::translate("GraphEditor", "Title", nullptr));
+        _lblTitle->setText(QCoreApplication::translate("GraphEditor", "Title:", nullptr));
+        _cbTitleUseBase->setText(QCoreApplication::translate("GraphEditor", "Use Base Font", nullptr));
+        _gbTitleFont->setTitle(QCoreApplication::translate("GraphEditor", "Title Font", nullptr));
+        _btnTitleFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _tabWidget->setTabText(_tabWidget->indexOf(generalTab), QCoreApplication::translate("GraphEditor", "General", nullptr));
+        _gbDataAxis->setTitle(QCoreApplication::translate("GraphEditor", "Data Axis Labels", nullptr));
+        _lblData->setText(QCoreApplication::translate("GraphEditor", "Column:", nullptr));
+        _cbDataUseBase->setText(QCoreApplication::translate("GraphEditor", "Use Base Font", nullptr));
+        _gbDataFont->setTitle(QCoreApplication::translate("GraphEditor", "Data Axis Font", nullptr));
+        _btnDataFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _gbDataAxisTitle->setTitle(QCoreApplication::translate("GraphEditor", "Data Axis Title", nullptr));
+        _lblDataTitle->setText(QCoreApplication::translate("GraphEditor", "Title:", nullptr));
+        _cbDataTitleUseBase->setText(QCoreApplication::translate("GraphEditor", "Use Base Font", nullptr));
+        _gbDataTitleFont->setTitle(QCoreApplication::translate("GraphEditor", "Data Axis Title Font", nullptr));
+        _btnDataTitleFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _tabWidget->setTabText(_tabWidget->indexOf(dataTab), QCoreApplication::translate("GraphEditor", "Data Axis", nullptr));
+        _lblMin->setText(QCoreApplication::translate("GraphEditor", "Min:", nullptr));
+        _lblMax->setText(QCoreApplication::translate("GraphEditor", "Max:", nullptr));
+        _cbAutoMinMax->setText(QCoreApplication::translate("GraphEditor", "Expand Min/Max if needed", nullptr));
+        _cbValueUseBase->setText(QCoreApplication::translate("GraphEditor", "Use Base Font", nullptr));
+        _gbValueFont->setTitle(QCoreApplication::translate("GraphEditor", "Value Axis Font", nullptr));
+        _btnValueFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _gbDataAxisTitle_2->setTitle(QCoreApplication::translate("GraphEditor", "Value Axis Title", nullptr));
+        _lblValueTitle->setText(QCoreApplication::translate("GraphEditor", "Title:", nullptr));
+        _cbValueTitleUseBase->setText(QCoreApplication::translate("GraphEditor", "Use Base Font", nullptr));
+        _gbValueTitleFont->setTitle(QCoreApplication::translate("GraphEditor", "Value Axis Title Font", nullptr));
+        _btnValueTitleFont->setText(QCoreApplication::translate("GraphEditor", "Font...", nullptr));
+        _tabWidget->setTabText(_tabWidget->indexOf(valueTab), QCoreApplication::translate("GraphEditor", "Value Axis", nullptr));
+        _lblSeries->setText(QCoreApplication::translate("GraphEditor", "Series:", nullptr));
+        _btnNewSeries->setText(QCoreApplication::translate("GraphEditor", "New", nullptr));
+        _btnRemoveSeries->setText(QCoreApplication::translate("GraphEditor", "Remove", nullptr));
+        _gbSeriesProperties->setTitle(QCoreApplication::translate("GraphEditor", "Series Properties", nullptr));
+        _lblSeriesColor->setText(QCoreApplication::translate("GraphEditor", "Color:", nullptr));
+        _btnEditColors->setText(QCoreApplication::translate("GraphEditor", "Edit", nullptr));
+        _lblSeriesName->setText(QCoreApplication::translate("GraphEditor", "Name:", nullptr));
+        _lblSeriesColumn->setText(QCoreApplication::translate("GraphEditor", "Column:", nullptr));
+        _gbSeriesStyle->setTitle(QCoreApplication::translate("GraphEditor", "Style", nullptr));
+        _cbSeriesStyleBars->setText(QCoreApplication::translate("GraphEditor", "Bars", nullptr));
+        _cbSeriesStyleLines->setText(QCoreApplication::translate("GraphEditor", "Lines", nullptr));
+        _cbSeriesStylePoints->setText(QCoreApplication::translate("GraphEditor", "Points", nullptr));
+        _tabWidget->setTabText(_tabWidget->indexOf(seriesTab), QCoreApplication::translate("GraphEditor", "Series", nullptr));
+        buttonOk->setText(QCoreApplication::translate("GraphEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("GraphEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("GraphEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("GraphEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };

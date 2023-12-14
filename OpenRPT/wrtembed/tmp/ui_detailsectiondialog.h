@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'detailsectiondialog.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -184,10 +184,10 @@ public:
 
         vboxLayout->addLayout(hboxLayout1);
 
-#ifndef QT_NO_SHORTCUT
+#if QT_CONFIG(shortcut)
         TextLabel1->setBuddy(tbName);
         TextLabel2->setBuddy(cbQuery);
-#endif // QT_NO_SHORTCUT
+#endif // QT_CONFIG(shortcut)
         QWidget::setTabOrder(tbName, cbQuery);
         QWidget::setTabOrder(cbQuery, breakAtEnd);
         QWidget::setTabOrder(breakAtEnd, lbGroups);
@@ -209,20 +209,20 @@ public:
 
     void retranslateUi(QDialog *DetailSectionDialog)
     {
-        DetailSectionDialog->setWindowTitle(QApplication::translate("DetailSectionDialog", "Detail Section Properties", nullptr));
-        TextLabel1->setText(QApplication::translate("DetailSectionDialog", "Section Name:", nullptr));
-        TextLabel2->setText(QApplication::translate("DetailSectionDialog", "Query Source:", nullptr));
-        breakAtEnd->setText(QApplication::translate("DetailSectionDialog", "Insert Page Break At End of Last Section", nullptr));
-        GroupBox1->setTitle(QApplication::translate("DetailSectionDialog", "Group Sections", nullptr));
-        btnAdd->setText(QApplication::translate("DetailSectionDialog", "&Add", nullptr));
-        btnEdit->setText(QApplication::translate("DetailSectionDialog", "&Edit", nullptr));
-        btnRemove->setText(QApplication::translate("DetailSectionDialog", "Delete", nullptr));
-        btnMoveUp->setText(QApplication::translate("DetailSectionDialog", "Move &Up", nullptr));
-        brnMoveDown->setText(QApplication::translate("DetailSectionDialog", "Move &Down", nullptr));
-        buttonOk->setText(QApplication::translate("DetailSectionDialog", "&Close", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("DetailSectionDialog", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
+        DetailSectionDialog->setWindowTitle(QCoreApplication::translate("DetailSectionDialog", "Detail Section Properties", nullptr));
+        TextLabel1->setText(QCoreApplication::translate("DetailSectionDialog", "Section Name:", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("DetailSectionDialog", "Query Source:", nullptr));
+        breakAtEnd->setText(QCoreApplication::translate("DetailSectionDialog", "Insert Page Break At End of Last Section", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("DetailSectionDialog", "Group Sections", nullptr));
+        btnAdd->setText(QCoreApplication::translate("DetailSectionDialog", "&Add", nullptr));
+        btnEdit->setText(QCoreApplication::translate("DetailSectionDialog", "&Edit", nullptr));
+        btnRemove->setText(QCoreApplication::translate("DetailSectionDialog", "Delete", nullptr));
+        btnMoveUp->setText(QCoreApplication::translate("DetailSectionDialog", "Move &Up", nullptr));
+        brnMoveDown->setText(QCoreApplication::translate("DetailSectionDialog", "Move &Down", nullptr));
+        buttonOk->setText(QCoreApplication::translate("DetailSectionDialog", "&Close", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("DetailSectionDialog", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };

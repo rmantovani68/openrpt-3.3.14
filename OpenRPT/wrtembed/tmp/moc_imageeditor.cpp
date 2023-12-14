@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'imageeditor.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.11)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../imageeditor.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'imageeditor.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.12.5. It"
+#error "This file was generated using the moc from 5.15.11. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -96,7 +97,7 @@ void ImageEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<ImageEditor *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->cbStatic_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 1: { QString _r = _t->getImageData();
@@ -116,7 +117,7 @@ void ImageEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
 }
 
 QT_INIT_METAOBJECT const QMetaObject ImageEditor::staticMetaObject = { {
-    &QDialog::staticMetaObject,
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
     qt_meta_stringdata_ImageEditor.data,
     qt_meta_data_ImageEditor,
     qt_static_metacall,

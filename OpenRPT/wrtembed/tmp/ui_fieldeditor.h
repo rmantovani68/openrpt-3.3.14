@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'fieldeditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -542,58 +542,58 @@ public:
 
     void retranslateUi(QDialog *FieldEditor)
     {
-        FieldEditor->setWindowTitle(QApplication::translate("FieldEditor", "Properties (Field)", nullptr));
-        TextLabel1_3->setText(QApplication::translate("FieldEditor", "Query Source:", nullptr));
-        TextLabel1->setText(QApplication::translate("FieldEditor", "Column:", nullptr));
-        _cbRTotal->setText(QApplication::translate("FieldEditor", "Display as Running Total", nullptr));
-        _cbSubTotal->setText(QApplication::translate("FieldEditor", "Use Subtotal Value", nullptr));
-        _gbFormat->setTitle(QApplication::translate("FieldEditor", "Format", nullptr));
-        _rbStringFormat->setText(QApplication::translate("FieldEditor", "String Format ", nullptr));
-        _lblRTotalExample->setText(QApplication::translate("FieldEditor", "Example: %0.2f", nullptr));
-        _rbBuiltinFormat->setText(QApplication::translate("FieldEditor", "Built-in Locale Format", nullptr));
-        GroupBox_Array->setTitle(QApplication::translate("FieldEditor", "Array", nullptr));
-        leColumns->setText(QApplication::translate("FieldEditor", "1", nullptr));
-        TextLabel2_2->setText(QApplication::translate("FieldEditor", "Columns:", nullptr));
-        TextLabel1_3_3->setText(QApplication::translate("FieldEditor", "Lines:", nullptr));
-        leLines->setText(QApplication::translate("FieldEditor", "1", nullptr));
-        TextLabel2_3->setText(QApplication::translate("FieldEditor", "H spacing:", nullptr));
-        TextLabel1_3_4->setText(QApplication::translate("FieldEditor", "V spacing:", nullptr));
-        leXSpacing->setText(QApplication::translate("FieldEditor", "0", nullptr));
-        leYSpacing->setText(QApplication::translate("FieldEditor", "0", nullptr));
-        _cbPageBreak->setText(QApplication::translate("FieldEditor", "Page break", nullptr));
-        _cbLeftToRight->setText(QApplication::translate("FieldEditor", "Fill columns first", nullptr));
-        bgHAlign->setTitle(QApplication::translate("FieldEditor", "HAlign", nullptr));
-        rbHAlignNone->setText(QApplication::translate("FieldEditor", "None", nullptr));
-        rbHAlignLeft->setText(QApplication::translate("FieldEditor", "Left", nullptr));
-        rbHAlignCenter->setText(QApplication::translate("FieldEditor", "Center", nullptr));
-        rbHAlignRight->setText(QApplication::translate("FieldEditor", "Right", nullptr));
-        bgVAlign->setTitle(QApplication::translate("FieldEditor", "VAlign", nullptr));
-        rbVAlignNone->setText(QApplication::translate("FieldEditor", "None", nullptr));
-        rbVAlignTop->setText(QApplication::translate("FieldEditor", "Top", nullptr));
-        rbVAlignMiddle->setText(QApplication::translate("FieldEditor", "Middle", nullptr));
-        rbVAlignBottom->setText(QApplication::translate("FieldEditor", "Bottom", nullptr));
-        _cbWordWrap->setText(QApplication::translate("FieldEditor", "Word wrap", nullptr));
-        GroupBox1->setTitle(QApplication::translate("FieldEditor", "Position/Size", nullptr));
-        leHeight->setText(QApplication::translate("FieldEditor", "0.01", nullptr));
-        leWidth->setText(QApplication::translate("FieldEditor", "0.01", nullptr));
-        TextLabel2->setText(QApplication::translate("FieldEditor", "Y:", nullptr));
-        TextLabel4->setText(QApplication::translate("FieldEditor", "Height:", nullptr));
-        TextLabel1_3_2->setText(QApplication::translate("FieldEditor", "X:", nullptr));
-        TextLabel3->setText(QApplication::translate("FieldEditor", "Width:", nullptr));
-        TextLabel5->setText(QApplication::translate("FieldEditor", "in inches", nullptr));
-        leYPos->setText(QApplication::translate("FieldEditor", "0.00", nullptr));
-        leXPos->setText(QApplication::translate("FieldEditor", "0.00", nullptr));
-        TextLabel1_2->setText(QApplication::translate("FieldEditor", "Preview:", nullptr));
-        labelPreview->setText(QApplication::translate("FieldEditor", "Preview Area", nullptr));
-        buttonOk->setText(QApplication::translate("FieldEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("FieldEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("FieldEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("FieldEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
-        btnFont->setText(QApplication::translate("FieldEditor", "&Font...", nullptr));
+        FieldEditor->setWindowTitle(QCoreApplication::translate("FieldEditor", "Properties (Field)", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("FieldEditor", "Query Source:", nullptr));
+        TextLabel1->setText(QCoreApplication::translate("FieldEditor", "Column:", nullptr));
+        _cbRTotal->setText(QCoreApplication::translate("FieldEditor", "Display as Running Total", nullptr));
+        _cbSubTotal->setText(QCoreApplication::translate("FieldEditor", "Use Subtotal Value", nullptr));
+        _gbFormat->setTitle(QCoreApplication::translate("FieldEditor", "Format", nullptr));
+        _rbStringFormat->setText(QCoreApplication::translate("FieldEditor", "String Format ", nullptr));
+        _lblRTotalExample->setText(QCoreApplication::translate("FieldEditor", "Example: %0.2f", nullptr));
+        _rbBuiltinFormat->setText(QCoreApplication::translate("FieldEditor", "Built-in Locale Format", nullptr));
+        GroupBox_Array->setTitle(QCoreApplication::translate("FieldEditor", "Array", nullptr));
+        leColumns->setText(QCoreApplication::translate("FieldEditor", "1", nullptr));
+        TextLabel2_2->setText(QCoreApplication::translate("FieldEditor", "Columns:", nullptr));
+        TextLabel1_3_3->setText(QCoreApplication::translate("FieldEditor", "Lines:", nullptr));
+        leLines->setText(QCoreApplication::translate("FieldEditor", "1", nullptr));
+        TextLabel2_3->setText(QCoreApplication::translate("FieldEditor", "H spacing:", nullptr));
+        TextLabel1_3_4->setText(QCoreApplication::translate("FieldEditor", "V spacing:", nullptr));
+        leXSpacing->setText(QCoreApplication::translate("FieldEditor", "0", nullptr));
+        leYSpacing->setText(QCoreApplication::translate("FieldEditor", "0", nullptr));
+        _cbPageBreak->setText(QCoreApplication::translate("FieldEditor", "Page break", nullptr));
+        _cbLeftToRight->setText(QCoreApplication::translate("FieldEditor", "Fill columns first", nullptr));
+        bgHAlign->setTitle(QCoreApplication::translate("FieldEditor", "HAlign", nullptr));
+        rbHAlignNone->setText(QCoreApplication::translate("FieldEditor", "None", nullptr));
+        rbHAlignLeft->setText(QCoreApplication::translate("FieldEditor", "Left", nullptr));
+        rbHAlignCenter->setText(QCoreApplication::translate("FieldEditor", "Center", nullptr));
+        rbHAlignRight->setText(QCoreApplication::translate("FieldEditor", "Right", nullptr));
+        bgVAlign->setTitle(QCoreApplication::translate("FieldEditor", "VAlign", nullptr));
+        rbVAlignNone->setText(QCoreApplication::translate("FieldEditor", "None", nullptr));
+        rbVAlignTop->setText(QCoreApplication::translate("FieldEditor", "Top", nullptr));
+        rbVAlignMiddle->setText(QCoreApplication::translate("FieldEditor", "Middle", nullptr));
+        rbVAlignBottom->setText(QCoreApplication::translate("FieldEditor", "Bottom", nullptr));
+        _cbWordWrap->setText(QCoreApplication::translate("FieldEditor", "Word wrap", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("FieldEditor", "Position/Size", nullptr));
+        leHeight->setText(QCoreApplication::translate("FieldEditor", "0.01", nullptr));
+        leWidth->setText(QCoreApplication::translate("FieldEditor", "0.01", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("FieldEditor", "Y:", nullptr));
+        TextLabel4->setText(QCoreApplication::translate("FieldEditor", "Height:", nullptr));
+        TextLabel1_3_2->setText(QCoreApplication::translate("FieldEditor", "X:", nullptr));
+        TextLabel3->setText(QCoreApplication::translate("FieldEditor", "Width:", nullptr));
+        TextLabel5->setText(QCoreApplication::translate("FieldEditor", "in inches", nullptr));
+        leYPos->setText(QCoreApplication::translate("FieldEditor", "0.00", nullptr));
+        leXPos->setText(QCoreApplication::translate("FieldEditor", "0.00", nullptr));
+        TextLabel1_2->setText(QCoreApplication::translate("FieldEditor", "Preview:", nullptr));
+        labelPreview->setText(QCoreApplication::translate("FieldEditor", "Preview Area", nullptr));
+        buttonOk->setText(QCoreApplication::translate("FieldEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("FieldEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("FieldEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("FieldEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
+        btnFont->setText(QCoreApplication::translate("FieldEditor", "&Font...", nullptr));
     } // retranslateUi
 
 };

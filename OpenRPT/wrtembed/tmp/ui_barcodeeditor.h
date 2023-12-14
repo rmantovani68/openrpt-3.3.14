@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'barcodeeditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -307,47 +307,47 @@ public:
 
     void retranslateUi(QDialog *BarcodeEditor)
     {
-        BarcodeEditor->setWindowTitle(QApplication::translate("BarcodeEditor", "Bar Code Properties", nullptr));
-        TextLabel1_3_2->setText(QApplication::translate("BarcodeEditor", "Format:", nullptr));
-        TextLabel1->setText(QApplication::translate("BarcodeEditor", "Column:", nullptr));
-        TextLabel1_3->setText(QApplication::translate("BarcodeEditor", "Query Source:", nullptr));
-        cbFormat->setItemText(0, QApplication::translate("BarcodeEditor", "3of9", nullptr));
-        cbFormat->setItemText(1, QApplication::translate("BarcodeEditor", "3of9+", nullptr));
-        cbFormat->setItemText(2, QApplication::translate("BarcodeEditor", "128", nullptr));
-        cbFormat->setItemText(3, QApplication::translate("BarcodeEditor", "ean13", nullptr));
-        cbFormat->setItemText(4, QApplication::translate("BarcodeEditor", "ean8", nullptr));
-        cbFormat->setItemText(5, QApplication::translate("BarcodeEditor", "upc-a", nullptr));
-        cbFormat->setItemText(6, QApplication::translate("BarcodeEditor", "upc-e", nullptr));
-        cbFormat->setItemText(7, QApplication::translate("BarcodeEditor", "i2of5", nullptr));
-        cbFormat->setItemText(8, QApplication::translate("BarcodeEditor", "PDF417", nullptr));
-        cbFormat->setItemText(9, QApplication::translate("BarcodeEditor", "QR", nullptr));
-        cbFormat->setItemText(10, QApplication::translate("BarcodeEditor", "Datamatrix square", nullptr));
-        cbFormat->setItemText(11, QApplication::translate("BarcodeEditor", "Datamatrix rectangle", nullptr));
+        BarcodeEditor->setWindowTitle(QCoreApplication::translate("BarcodeEditor", "Bar Code Properties", nullptr));
+        TextLabel1_3_2->setText(QCoreApplication::translate("BarcodeEditor", "Format:", nullptr));
+        TextLabel1->setText(QCoreApplication::translate("BarcodeEditor", "Column:", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("BarcodeEditor", "Query Source:", nullptr));
+        cbFormat->setItemText(0, QCoreApplication::translate("BarcodeEditor", "3of9", nullptr));
+        cbFormat->setItemText(1, QCoreApplication::translate("BarcodeEditor", "3of9+", nullptr));
+        cbFormat->setItemText(2, QCoreApplication::translate("BarcodeEditor", "128", nullptr));
+        cbFormat->setItemText(3, QCoreApplication::translate("BarcodeEditor", "ean13", nullptr));
+        cbFormat->setItemText(4, QCoreApplication::translate("BarcodeEditor", "ean8", nullptr));
+        cbFormat->setItemText(5, QCoreApplication::translate("BarcodeEditor", "upc-a", nullptr));
+        cbFormat->setItemText(6, QCoreApplication::translate("BarcodeEditor", "upc-e", nullptr));
+        cbFormat->setItemText(7, QCoreApplication::translate("BarcodeEditor", "i2of5", nullptr));
+        cbFormat->setItemText(8, QCoreApplication::translate("BarcodeEditor", "PDF417", nullptr));
+        cbFormat->setItemText(9, QCoreApplication::translate("BarcodeEditor", "QR", nullptr));
+        cbFormat->setItemText(10, QCoreApplication::translate("BarcodeEditor", "Datamatrix square", nullptr));
+        cbFormat->setItemText(11, QCoreApplication::translate("BarcodeEditor", "Datamatrix rectangle", nullptr));
 
-        buttonGroupAlign->setTitle(QApplication::translate("BarcodeEditor", "Alignment", nullptr));
-        rbAlignLeft->setText(QApplication::translate("BarcodeEditor", "Left", nullptr));
-        rbAlignCenter->setText(QApplication::translate("BarcodeEditor", "Center", nullptr));
-        rbAlignRight->setText(QApplication::translate("BarcodeEditor", "Right", nullptr));
-        GroupBox1->setTitle(QApplication::translate("BarcodeEditor", "Position/Size", nullptr));
-        TextLabel1_3_3->setText(QApplication::translate("BarcodeEditor", "X:", nullptr));
-        leXPos->setText(QApplication::translate("BarcodeEditor", "0.00", nullptr));
-        TextLabel3->setText(QApplication::translate("BarcodeEditor", "Width:", nullptr));
-        leWidth->setText(QApplication::translate("BarcodeEditor", "0.01", nullptr));
-        TextLabel2->setText(QApplication::translate("BarcodeEditor", "Y:", nullptr));
-        leYPos->setText(QApplication::translate("BarcodeEditor", "0.00", nullptr));
-        TextLabel4->setText(QApplication::translate("BarcodeEditor", "Height:", nullptr));
-        leHeight->setText(QApplication::translate("BarcodeEditor", "0.01", nullptr));
-        lnarrowBar->setText(QApplication::translate("BarcodeEditor", "Narrow bar width:", nullptr));
-        leNarrowBarWidth->setText(QApplication::translate("BarcodeEditor", "0.00", nullptr));
-        TextLabel5->setText(QApplication::translate("BarcodeEditor", "in inches", nullptr));
-        buttonOk->setText(QApplication::translate("BarcodeEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("BarcodeEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("BarcodeEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("BarcodeEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
+        buttonGroupAlign->setTitle(QCoreApplication::translate("BarcodeEditor", "Alignment", nullptr));
+        rbAlignLeft->setText(QCoreApplication::translate("BarcodeEditor", "Left", nullptr));
+        rbAlignCenter->setText(QCoreApplication::translate("BarcodeEditor", "Center", nullptr));
+        rbAlignRight->setText(QCoreApplication::translate("BarcodeEditor", "Right", nullptr));
+        GroupBox1->setTitle(QCoreApplication::translate("BarcodeEditor", "Position/Size", nullptr));
+        TextLabel1_3_3->setText(QCoreApplication::translate("BarcodeEditor", "X:", nullptr));
+        leXPos->setText(QCoreApplication::translate("BarcodeEditor", "0.00", nullptr));
+        TextLabel3->setText(QCoreApplication::translate("BarcodeEditor", "Width:", nullptr));
+        leWidth->setText(QCoreApplication::translate("BarcodeEditor", "0.01", nullptr));
+        TextLabel2->setText(QCoreApplication::translate("BarcodeEditor", "Y:", nullptr));
+        leYPos->setText(QCoreApplication::translate("BarcodeEditor", "0.00", nullptr));
+        TextLabel4->setText(QCoreApplication::translate("BarcodeEditor", "Height:", nullptr));
+        leHeight->setText(QCoreApplication::translate("BarcodeEditor", "0.01", nullptr));
+        lnarrowBar->setText(QCoreApplication::translate("BarcodeEditor", "Narrow bar width:", nullptr));
+        leNarrowBarWidth->setText(QCoreApplication::translate("BarcodeEditor", "0.00", nullptr));
+        TextLabel5->setText(QCoreApplication::translate("BarcodeEditor", "in inches", nullptr));
+        buttonOk->setText(QCoreApplication::translate("BarcodeEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("BarcodeEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("BarcodeEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("BarcodeEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };

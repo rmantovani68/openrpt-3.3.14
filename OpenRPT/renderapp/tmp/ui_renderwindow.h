@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'renderwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -275,9 +275,9 @@ public:
         fileMenu = new QMenu(MenuBar);
         fileMenu->setObjectName(QString::fromUtf8("fileMenu"));
         RenderWindow->setMenuBar(MenuBar);
-#ifndef QT_NO_SHORTCUT
+#if QT_CONFIG(shortcut)
         _reportDescriptionLbl->setBuddy(_reportDescription);
-#endif // QT_NO_SHORTCUT
+#endif // QT_CONFIG(shortcut)
         QWidget::setTabOrder(_reportDescription, _add);
         QWidget::setTabOrder(_add, _edit);
         QWidget::setTabOrder(_edit, _list);
@@ -303,65 +303,65 @@ public:
 
     void retranslateUi(QMainWindow *RenderWindow)
     {
-        RenderWindow->setWindowTitle(QApplication::translate("RenderWindow", "OpenRPT Renderer", nullptr));
-        fileOpenAction->setText(QApplication::translate("RenderWindow", "&Open...", nullptr));
-        fileOpenAction->setIconText(QApplication::translate("RenderWindow", "Open", nullptr));
-#ifndef QT_NO_SHORTCUT
-        fileOpenAction->setShortcut(QApplication::translate("RenderWindow", "Ctrl+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        filePrintAction->setText(QApplication::translate("RenderWindow", "&Print...", nullptr));
-        filePrintAction->setIconText(QApplication::translate("RenderWindow", "Print", nullptr));
-#ifndef QT_NO_SHORTCUT
-        filePrintAction->setShortcut(QApplication::translate("RenderWindow", "Ctrl+P", nullptr));
-#endif // QT_NO_SHORTCUT
-        fileExitAction->setText(QApplication::translate("RenderWindow", "E&xit", nullptr));
-        fileExitAction->setIconText(QApplication::translate("RenderWindow", "Exit", nullptr));
-#ifndef QT_NO_SHORTCUT
+        RenderWindow->setWindowTitle(QCoreApplication::translate("RenderWindow", "OpenRPT Renderer", nullptr));
+        fileOpenAction->setText(QCoreApplication::translate("RenderWindow", "&Open...", nullptr));
+        fileOpenAction->setIconText(QCoreApplication::translate("RenderWindow", "Open", nullptr));
+#if QT_CONFIG(shortcut)
+        fileOpenAction->setShortcut(QCoreApplication::translate("RenderWindow", "Ctrl+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        filePrintAction->setText(QCoreApplication::translate("RenderWindow", "&Print...", nullptr));
+        filePrintAction->setIconText(QCoreApplication::translate("RenderWindow", "Print", nullptr));
+#if QT_CONFIG(shortcut)
+        filePrintAction->setShortcut(QCoreApplication::translate("RenderWindow", "Ctrl+P", nullptr));
+#endif // QT_CONFIG(shortcut)
+        fileExitAction->setText(QCoreApplication::translate("RenderWindow", "E&xit", nullptr));
+        fileExitAction->setIconText(QCoreApplication::translate("RenderWindow", "Exit", nullptr));
+#if QT_CONFIG(shortcut)
         fileExitAction->setShortcut(QString());
-#endif // QT_NO_SHORTCUT
-        helpAboutAction->setText(QApplication::translate("RenderWindow", "&About", nullptr));
-        helpAboutAction->setIconText(QApplication::translate("RenderWindow", "About", nullptr));
-#ifndef QT_NO_SHORTCUT
+#endif // QT_CONFIG(shortcut)
+        helpAboutAction->setText(QCoreApplication::translate("RenderWindow", "&About", nullptr));
+        helpAboutAction->setIconText(QCoreApplication::translate("RenderWindow", "About", nullptr));
+#if QT_CONFIG(shortcut)
         helpAboutAction->setShortcut(QString());
-#endif // QT_NO_SHORTCUT
-        filePrintToPDFAction->setText(QApplication::translate("RenderWindow", "Print to PDF...", nullptr));
-        fileLoadFromDB->setText(QApplication::translate("RenderWindow", "Load from Database...", nullptr));
-        filePrintPreviewAction->setText(QApplication::translate("RenderWindow", "Print Preview...", nullptr));
-        _reportLbl->setText(QApplication::translate("RenderWindow", "Report Definition:", nullptr));
-        _report->setText(QApplication::translate("RenderWindow", "Not Loaded", nullptr));
-        _reportInfo->setTitle(QApplication::translate("RenderWindow", "Report Information", nullptr));
-        _reportDescriptionLbl->setText(QApplication::translate("RenderWindow", "Description:", nullptr));
-        _reportNameLbl->setText(QApplication::translate("RenderWindow", "Name:", nullptr));
+#endif // QT_CONFIG(shortcut)
+        filePrintToPDFAction->setText(QCoreApplication::translate("RenderWindow", "Print to PDF...", nullptr));
+        fileLoadFromDB->setText(QCoreApplication::translate("RenderWindow", "Load from Database...", nullptr));
+        filePrintPreviewAction->setText(QCoreApplication::translate("RenderWindow", "Print Preview...", nullptr));
+        _reportLbl->setText(QCoreApplication::translate("RenderWindow", "Report Definition:", nullptr));
+        _report->setText(QCoreApplication::translate("RenderWindow", "Not Loaded", nullptr));
+        _reportInfo->setTitle(QCoreApplication::translate("RenderWindow", "Report Information", nullptr));
+        _reportDescriptionLbl->setText(QCoreApplication::translate("RenderWindow", "Description:", nullptr));
+        _reportNameLbl->setText(QCoreApplication::translate("RenderWindow", "Name:", nullptr));
         _reportTitle->setText(QString());
         _reportName->setText(QString());
-        _reportTitleLbl->setText(QApplication::translate("RenderWindow", "Title:", nullptr));
-        groupBox1->setTitle(QApplication::translate("RenderWindow", "Parameters", nullptr));
+        _reportTitleLbl->setText(QCoreApplication::translate("RenderWindow", "Title:", nullptr));
+        groupBox1->setTitle(QCoreApplication::translate("RenderWindow", "Parameters", nullptr));
         QTableWidgetItem *___qtablewidgetitem = _table->horizontalHeaderItem(0);
-        ___qtablewidgetitem->setText(QApplication::translate("RenderWindow", "Active", nullptr));
+        ___qtablewidgetitem->setText(QCoreApplication::translate("RenderWindow", "Active", nullptr));
         QTableWidgetItem *___qtablewidgetitem1 = _table->horizontalHeaderItem(1);
-        ___qtablewidgetitem1->setText(QApplication::translate("RenderWindow", "Name", nullptr));
+        ___qtablewidgetitem1->setText(QCoreApplication::translate("RenderWindow", "Name", nullptr));
         QTableWidgetItem *___qtablewidgetitem2 = _table->horizontalHeaderItem(2);
-        ___qtablewidgetitem2->setText(QApplication::translate("RenderWindow", "Type", nullptr));
+        ___qtablewidgetitem2->setText(QCoreApplication::translate("RenderWindow", "Type", nullptr));
         QTableWidgetItem *___qtablewidgetitem3 = _table->horizontalHeaderItem(3);
-        ___qtablewidgetitem3->setText(QApplication::translate("RenderWindow", "Value", nullptr));
-        _add->setText(QApplication::translate("RenderWindow", "&Add", nullptr));
-#ifndef QT_NO_SHORTCUT
-        _add->setShortcut(QApplication::translate("RenderWindow", "Alt+A", nullptr));
-#endif // QT_NO_SHORTCUT
-        _edit->setText(QApplication::translate("RenderWindow", "&Edit", nullptr));
-#ifndef QT_NO_SHORTCUT
-        _edit->setShortcut(QApplication::translate("RenderWindow", "Alt+E", nullptr));
-#endif // QT_NO_SHORTCUT
-        _list->setText(QApplication::translate("RenderWindow", "&List", nullptr));
-#ifndef QT_NO_SHORTCUT
-        _list->setShortcut(QApplication::translate("RenderWindow", "Alt+L", nullptr));
-#endif // QT_NO_SHORTCUT
-        _delete->setText(QApplication::translate("RenderWindow", "Delete", nullptr));
-#ifndef QT_NO_SHORTCUT
+        ___qtablewidgetitem3->setText(QCoreApplication::translate("RenderWindow", "Value", nullptr));
+        _add->setText(QCoreApplication::translate("RenderWindow", "&Add", nullptr));
+#if QT_CONFIG(shortcut)
+        _add->setShortcut(QCoreApplication::translate("RenderWindow", "Alt+A", nullptr));
+#endif // QT_CONFIG(shortcut)
+        _edit->setText(QCoreApplication::translate("RenderWindow", "&Edit", nullptr));
+#if QT_CONFIG(shortcut)
+        _edit->setShortcut(QCoreApplication::translate("RenderWindow", "Alt+E", nullptr));
+#endif // QT_CONFIG(shortcut)
+        _list->setText(QCoreApplication::translate("RenderWindow", "&List", nullptr));
+#if QT_CONFIG(shortcut)
+        _list->setShortcut(QCoreApplication::translate("RenderWindow", "Alt+L", nullptr));
+#endif // QT_CONFIG(shortcut)
+        _delete->setText(QCoreApplication::translate("RenderWindow", "Delete", nullptr));
+#if QT_CONFIG(shortcut)
         _delete->setShortcut(QString());
-#endif // QT_NO_SHORTCUT
-        helpMenu->setTitle(QApplication::translate("RenderWindow", "&Help", nullptr));
-        fileMenu->setTitle(QApplication::translate("RenderWindow", "&File", nullptr));
+#endif // QT_CONFIG(shortcut)
+        helpMenu->setTitle(QCoreApplication::translate("RenderWindow", "&Help", nullptr));
+        fileMenu->setTitle(QCoreApplication::translate("RenderWindow", "&File", nullptr));
     } // retranslateUi
 
 };

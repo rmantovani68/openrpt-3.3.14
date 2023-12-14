@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'reportproperties.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -810,68 +810,68 @@ public:
 
     void retranslateUi(QDialog *ReportProperties)
     {
-        ReportProperties->setWindowTitle(QApplication::translate("ReportProperties", "Report Properties", nullptr));
-        _lblTitle->setText(QApplication::translate("ReportProperties", "Title:", nullptr));
-        _lblName->setText(QApplication::translate("ReportProperties", "Name:", nullptr));
-        _lblDescrip->setText(QApplication::translate("ReportProperties", "Description:", nullptr));
-        _tab->setTabText(_tab->indexOf(tab1), QApplication::translate("ReportProperties", "Info", nullptr));
-        _cbBgEnable->setText(QApplication::translate("ReportProperties", "Enable Background Image", nullptr));
-        _gbBgSource->setTitle(QApplication::translate("ReportProperties", "Source", nullptr));
-        _rbBgStatic->setText(QApplication::translate("ReportProperties", "Static", nullptr));
-        _rbBgDynamic->setText(QApplication::translate("ReportProperties", "Dynamic", nullptr));
-        _gbBgDynamic->setTitle(QApplication::translate("ReportProperties", "Database", nullptr));
-        _lblBgColumn->setText(QApplication::translate("ReportProperties", "Column:", nullptr));
-        _lblBgQuery->setText(QApplication::translate("ReportProperties", "Query Source:", nullptr));
-        _gbBgOpacity->setTitle(QApplication::translate("ReportProperties", "Opacity", nullptr));
-        _lblBgOpacityNone->setText(QApplication::translate("ReportProperties", "0%\n"
+        ReportProperties->setWindowTitle(QCoreApplication::translate("ReportProperties", "Report Properties", nullptr));
+        _lblTitle->setText(QCoreApplication::translate("ReportProperties", "Title:", nullptr));
+        _lblName->setText(QCoreApplication::translate("ReportProperties", "Name:", nullptr));
+        _lblDescrip->setText(QCoreApplication::translate("ReportProperties", "Description:", nullptr));
+        _tab->setTabText(_tab->indexOf(tab1), QCoreApplication::translate("ReportProperties", "Info", nullptr));
+        _cbBgEnable->setText(QCoreApplication::translate("ReportProperties", "Enable Background Image", nullptr));
+        _gbBgSource->setTitle(QCoreApplication::translate("ReportProperties", "Source", nullptr));
+        _rbBgStatic->setText(QCoreApplication::translate("ReportProperties", "Static", nullptr));
+        _rbBgDynamic->setText(QCoreApplication::translate("ReportProperties", "Dynamic", nullptr));
+        _gbBgDynamic->setTitle(QCoreApplication::translate("ReportProperties", "Database", nullptr));
+        _lblBgColumn->setText(QCoreApplication::translate("ReportProperties", "Column:", nullptr));
+        _lblBgQuery->setText(QCoreApplication::translate("ReportProperties", "Query Source:", nullptr));
+        _gbBgOpacity->setTitle(QCoreApplication::translate("ReportProperties", "Opacity", nullptr));
+        _lblBgOpacityNone->setText(QCoreApplication::translate("ReportProperties", "0%\n"
 "(transparent)", nullptr));
-        _lblBgOpacity->setText(QApplication::translate("ReportProperties", "10%", nullptr));
-        _lblBgOpacityFull->setText(QApplication::translate("ReportProperties", "100%\n"
+        _lblBgOpacity->setText(QCoreApplication::translate("ReportProperties", "10%", nullptr));
+        _lblBgOpacityFull->setText(QCoreApplication::translate("ReportProperties", "100%\n"
 "(opaque)", nullptr));
-        _tabBg->setTabText(_tabBg->indexOf(tab21), QApplication::translate("ReportProperties", "General", nullptr));
-        _gbBgResizeMode->setTitle(QApplication::translate("ReportProperties", "Resize Mode", nullptr));
-        _rbBgClip->setText(QApplication::translate("ReportProperties", "Clip", nullptr));
-        _rbBgStretch->setText(QApplication::translate("ReportProperties", "Stretch", nullptr));
-        _gbBgHAlign->setTitle(QApplication::translate("ReportProperties", "HAlign", nullptr));
-        _rbBgHAlignLeft->setText(QApplication::translate("ReportProperties", "Left", nullptr));
-        _rbBgHAlignCenter->setText(QApplication::translate("ReportProperties", "Center", nullptr));
-        _rbBgHAlignRight->setText(QApplication::translate("ReportProperties", "Right", nullptr));
-        _gbBgVAlign->setTitle(QApplication::translate("ReportProperties", "VAlign", nullptr));
-        _rbBgVAlignTop->setText(QApplication::translate("ReportProperties", "Top", nullptr));
-        _rbBgVAlignMiddle->setText(QApplication::translate("ReportProperties", "Middle", nullptr));
-        _rbBgVAlignBottom->setText(QApplication::translate("ReportProperties", "Bottom", nullptr));
-        _gbBgBounds->setTitle(QApplication::translate("ReportProperties", "Bounds", nullptr));
-        _lblBgY->setText(QApplication::translate("ReportProperties", "Y:", nullptr));
-        _lblBgWidth->setText(QApplication::translate("ReportProperties", "Width:", nullptr));
-        _lblBgX->setText(QApplication::translate("ReportProperties", "X:", nullptr));
-        _leBgHeight->setText(QApplication::translate("ReportProperties", "11.0", nullptr));
-        _lblBgHeight->setText(QApplication::translate("ReportProperties", "Height:", nullptr));
-        _leBgY->setText(QApplication::translate("ReportProperties", "0.0", nullptr));
-        _leBgX->setText(QApplication::translate("ReportProperties", "0.0", nullptr));
-        _leBgWidth->setText(QApplication::translate("ReportProperties", "8.5", nullptr));
-        _lblBoundsInInches->setText(QApplication::translate("ReportProperties", "in inches", nullptr));
-        _tabBg->setTabText(_tabBg->indexOf(tab22), QApplication::translate("ReportProperties", "Layout", nullptr));
-        _gbStatic->setTitle(QApplication::translate("ReportProperties", "Choose Image", nullptr));
-        _btnLoad->setText(QApplication::translate("ReportProperties", "Load...", nullptr));
-        _tabBg->setTabText(_tabBg->indexOf(tab23), QApplication::translate("ReportProperties", "Static Image", nullptr));
-        _tab->setTabText(_tab->indexOf(tab2), QApplication::translate("ReportProperties", "Background", nullptr));
-        _cbWmStatic->setText(QApplication::translate("ReportProperties", "Static Text", nullptr));
-        _gbWmDynamic->setTitle(QApplication::translate("ReportProperties", "Database", nullptr));
-        _lblWmColumn->setText(QApplication::translate("ReportProperties", "Column:", nullptr));
-        _lblWmQuery->setText(QApplication::translate("ReportProperties", "Query Source:", nullptr));
-        _cbWmUseBest->setText(QApplication::translate("ReportProperties", "Use best font", nullptr));
-        _gbWmFont->setTitle(QApplication::translate("ReportProperties", "Font", nullptr));
-        _leWmFont->setText(QApplication::translate("ReportProperties", "Arial", nullptr));
-        _btnWmChangeFont->setText(QApplication::translate("ReportProperties", "Change...", nullptr));
-        _gbWmOpacity->setTitle(QApplication::translate("ReportProperties", "Opacity", nullptr));
-        _lblWmOpacityNone->setText(QApplication::translate("ReportProperties", "0%\n"
+        _tabBg->setTabText(_tabBg->indexOf(tab21), QCoreApplication::translate("ReportProperties", "General", nullptr));
+        _gbBgResizeMode->setTitle(QCoreApplication::translate("ReportProperties", "Resize Mode", nullptr));
+        _rbBgClip->setText(QCoreApplication::translate("ReportProperties", "Clip", nullptr));
+        _rbBgStretch->setText(QCoreApplication::translate("ReportProperties", "Stretch", nullptr));
+        _gbBgHAlign->setTitle(QCoreApplication::translate("ReportProperties", "HAlign", nullptr));
+        _rbBgHAlignLeft->setText(QCoreApplication::translate("ReportProperties", "Left", nullptr));
+        _rbBgHAlignCenter->setText(QCoreApplication::translate("ReportProperties", "Center", nullptr));
+        _rbBgHAlignRight->setText(QCoreApplication::translate("ReportProperties", "Right", nullptr));
+        _gbBgVAlign->setTitle(QCoreApplication::translate("ReportProperties", "VAlign", nullptr));
+        _rbBgVAlignTop->setText(QCoreApplication::translate("ReportProperties", "Top", nullptr));
+        _rbBgVAlignMiddle->setText(QCoreApplication::translate("ReportProperties", "Middle", nullptr));
+        _rbBgVAlignBottom->setText(QCoreApplication::translate("ReportProperties", "Bottom", nullptr));
+        _gbBgBounds->setTitle(QCoreApplication::translate("ReportProperties", "Bounds", nullptr));
+        _lblBgY->setText(QCoreApplication::translate("ReportProperties", "Y:", nullptr));
+        _lblBgWidth->setText(QCoreApplication::translate("ReportProperties", "Width:", nullptr));
+        _lblBgX->setText(QCoreApplication::translate("ReportProperties", "X:", nullptr));
+        _leBgHeight->setText(QCoreApplication::translate("ReportProperties", "11.0", nullptr));
+        _lblBgHeight->setText(QCoreApplication::translate("ReportProperties", "Height:", nullptr));
+        _leBgY->setText(QCoreApplication::translate("ReportProperties", "0.0", nullptr));
+        _leBgX->setText(QCoreApplication::translate("ReportProperties", "0.0", nullptr));
+        _leBgWidth->setText(QCoreApplication::translate("ReportProperties", "8.5", nullptr));
+        _lblBoundsInInches->setText(QCoreApplication::translate("ReportProperties", "in inches", nullptr));
+        _tabBg->setTabText(_tabBg->indexOf(tab22), QCoreApplication::translate("ReportProperties", "Layout", nullptr));
+        _gbStatic->setTitle(QCoreApplication::translate("ReportProperties", "Choose Image", nullptr));
+        _btnLoad->setText(QCoreApplication::translate("ReportProperties", "Load...", nullptr));
+        _tabBg->setTabText(_tabBg->indexOf(tab23), QCoreApplication::translate("ReportProperties", "Static Image", nullptr));
+        _tab->setTabText(_tab->indexOf(tab2), QCoreApplication::translate("ReportProperties", "Background", nullptr));
+        _cbWmStatic->setText(QCoreApplication::translate("ReportProperties", "Static Text", nullptr));
+        _gbWmDynamic->setTitle(QCoreApplication::translate("ReportProperties", "Database", nullptr));
+        _lblWmColumn->setText(QCoreApplication::translate("ReportProperties", "Column:", nullptr));
+        _lblWmQuery->setText(QCoreApplication::translate("ReportProperties", "Query Source:", nullptr));
+        _cbWmUseBest->setText(QCoreApplication::translate("ReportProperties", "Use best font", nullptr));
+        _gbWmFont->setTitle(QCoreApplication::translate("ReportProperties", "Font", nullptr));
+        _leWmFont->setText(QCoreApplication::translate("ReportProperties", "Arial", nullptr));
+        _btnWmChangeFont->setText(QCoreApplication::translate("ReportProperties", "Change...", nullptr));
+        _gbWmOpacity->setTitle(QCoreApplication::translate("ReportProperties", "Opacity", nullptr));
+        _lblWmOpacityNone->setText(QCoreApplication::translate("ReportProperties", "0%\n"
 "(transparent)", nullptr));
-        _lblWmOpacity->setText(QApplication::translate("ReportProperties", "10%", nullptr));
-        _lblWmOpacityFull->setText(QApplication::translate("ReportProperties", "100%\n"
+        _lblWmOpacity->setText(QCoreApplication::translate("ReportProperties", "10%", nullptr));
+        _lblWmOpacityFull->setText(QCoreApplication::translate("ReportProperties", "100%\n"
 "(opaque)", nullptr));
-        _tab->setTabText(_tab->indexOf(tab3), QApplication::translate("ReportProperties", "Watermark", nullptr));
-        _btnAccept->setText(QApplication::translate("ReportProperties", "&OK", nullptr));
-        _btnCancel->setText(QApplication::translate("ReportProperties", "&Cancel", nullptr));
+        _tab->setTabText(_tab->indexOf(tab3), QCoreApplication::translate("ReportProperties", "Watermark", nullptr));
+        _btnAccept->setText(QCoreApplication::translate("ReportProperties", "&OK", nullptr));
+        _btnCancel->setText(QCoreApplication::translate("ReportProperties", "&Cancel", nullptr));
     } // retranslateUi
 
 };

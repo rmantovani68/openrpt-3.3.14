@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'dmatrixpreview.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.5)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.11)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "../dmatrixpreview.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'dmatrixpreview.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.12.5. It"
+#error "This file was generated using the moc from 5.15.11. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -78,7 +79,7 @@ void DMatrixPreview::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<DMatrixPreview *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: { bool _r = _t->escapeSignal((*reinterpret_cast< bool(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
@@ -99,7 +100,7 @@ void DMatrixPreview::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
 }
 
 QT_INIT_METAOBJECT const QMetaObject DMatrixPreview::staticMetaObject = { {
-    &QDialog::staticMetaObject,
+    QMetaObject::SuperData::link<QDialog::staticMetaObject>(),
     qt_meta_stringdata_DMatrixPreview.data,
     qt_meta_data_DMatrixPreview,
     qt_static_metacall,
@@ -142,7 +143,7 @@ int DMatrixPreview::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 bool DMatrixPreview::escapeSignal(bool _t1)
 {
     bool _t0{};
-    void *_a[] = { const_cast<void*>(reinterpret_cast<const void*>(&_t0)), const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t0))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
     return _t0;
 }

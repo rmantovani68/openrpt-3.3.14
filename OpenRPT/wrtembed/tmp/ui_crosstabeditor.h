@@ -21,7 +21,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'crosstabeditor.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.5
+** Created by: Qt User Interface Compiler version 5.15.11
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -434,71 +434,71 @@ public:
 
     void retranslateUi(QDialog *CrossTabEditor)
     {
-        CrossTabEditor->setWindowTitle(QApplication::translate("CrossTabEditor", "Properties (Field)", nullptr));
-        TextLabel1_3->setText(QApplication::translate("CrossTabEditor", "Query Source:", nullptr));
-        m_tablePropertiesGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Table properties", nullptr));
-        m_TableCellMarginsGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Table cell margins (inches)", nullptr));
-        m_cellLeftMarginLabel->setText(QApplication::translate("CrossTabEditor", "Left:", nullptr));
-        m_cellRightMarginLabel->setText(QApplication::translate("CrossTabEditor", "Right:", nullptr));
-        m_cellTopMarginLabel->setText(QApplication::translate("CrossTabEditor", "Top:", nullptr));
-        m_cellBottomMarginLabel->setText(QApplication::translate("CrossTabEditor", "Bottom:", nullptr));
-        m_tableWrappingPolicyGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Wrapping policy", nullptr));
-        m_wrapRowsFirstRadioButton->setText(QApplication::translate("CrossTabEditor", "First display all rows", nullptr));
-        m_wrapColumnsFirstRadioButton->setText(QApplication::translate("CrossTabEditor", "First display all columns", nullptr));
-        m_tableDisplayHeaderGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Display header", nullptr));
-        m_tableDisplayColumnHeaderCheckBox->setText(QApplication::translate("CrossTabEditor", "Display column header on each part", nullptr));
-        m_tableDisplayRowHeaderCheckBox->setText(QApplication::translate("CrossTabEditor", "Display row header on each part", nullptr));
-        btnFont->setText(QApplication::translate("CrossTabEditor", "&Font...", nullptr));
-        columnQueryGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Column query source", nullptr));
-        columnQueryColumnTextLabel->setText(QApplication::translate("CrossTabEditor", "Column query column:", nullptr));
-        columnQueryHAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
-        columnQueryHAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        columnQueryHAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Left", nullptr));
-        columnQueryHAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        columnQueryHAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Right", nullptr));
+        CrossTabEditor->setWindowTitle(QCoreApplication::translate("CrossTabEditor", "Properties (Field)", nullptr));
+        TextLabel1_3->setText(QCoreApplication::translate("CrossTabEditor", "Query Source:", nullptr));
+        m_tablePropertiesGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Table properties", nullptr));
+        m_TableCellMarginsGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Table cell margins (inches)", nullptr));
+        m_cellLeftMarginLabel->setText(QCoreApplication::translate("CrossTabEditor", "Left:", nullptr));
+        m_cellRightMarginLabel->setText(QCoreApplication::translate("CrossTabEditor", "Right:", nullptr));
+        m_cellTopMarginLabel->setText(QCoreApplication::translate("CrossTabEditor", "Top:", nullptr));
+        m_cellBottomMarginLabel->setText(QCoreApplication::translate("CrossTabEditor", "Bottom:", nullptr));
+        m_tableWrappingPolicyGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Wrapping policy", nullptr));
+        m_wrapRowsFirstRadioButton->setText(QCoreApplication::translate("CrossTabEditor", "First display all rows", nullptr));
+        m_wrapColumnsFirstRadioButton->setText(QCoreApplication::translate("CrossTabEditor", "First display all columns", nullptr));
+        m_tableDisplayHeaderGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Display header", nullptr));
+        m_tableDisplayColumnHeaderCheckBox->setText(QCoreApplication::translate("CrossTabEditor", "Display column header on each part", nullptr));
+        m_tableDisplayRowHeaderCheckBox->setText(QCoreApplication::translate("CrossTabEditor", "Display row header on each part", nullptr));
+        btnFont->setText(QCoreApplication::translate("CrossTabEditor", "&Font...", nullptr));
+        columnQueryGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Column query source", nullptr));
+        columnQueryColumnTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Column query column:", nullptr));
+        columnQueryHAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
+        columnQueryHAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        columnQueryHAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Left", nullptr));
+        columnQueryHAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        columnQueryHAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Right", nullptr));
 
-        columnQueryVAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
-        columnQueryVAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        columnQueryVAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Top", nullptr));
-        columnQueryVAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        columnQueryVAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Bottom", nullptr));
+        columnQueryVAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
+        columnQueryVAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        columnQueryVAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Top", nullptr));
+        columnQueryVAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        columnQueryVAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Bottom", nullptr));
 
-        rowQueryGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Row query source", nullptr));
-        rowQueryColumnTextLabel->setText(QApplication::translate("CrossTabEditor", "Row query column:", nullptr));
-        rowQueryHAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
-        rowQueryHAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        rowQueryHAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Left", nullptr));
-        rowQueryHAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        rowQueryHAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Right", nullptr));
+        rowQueryGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Row query source", nullptr));
+        rowQueryColumnTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Row query column:", nullptr));
+        rowQueryHAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
+        rowQueryHAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        rowQueryHAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Left", nullptr));
+        rowQueryHAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        rowQueryHAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Right", nullptr));
 
-        rowQueryVAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
-        rowQueryVAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        rowQueryVAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Top", nullptr));
-        rowQueryVAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        rowQueryVAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Bottom", nullptr));
+        rowQueryVAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
+        rowQueryVAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        rowQueryVAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Top", nullptr));
+        rowQueryVAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        rowQueryVAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Bottom", nullptr));
 
-        valueQueryGroupBox->setTitle(QApplication::translate("CrossTabEditor", "Value query source", nullptr));
-        valueQueryColumnTextLabel->setText(QApplication::translate("CrossTabEditor", "Value query column:", nullptr));
-        valueQueryHAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
-        valueQueryHAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        valueQueryHAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Left", nullptr));
-        valueQueryHAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        valueQueryHAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Right", nullptr));
+        valueQueryGroupBox->setTitle(QCoreApplication::translate("CrossTabEditor", "Value query source", nullptr));
+        valueQueryColumnTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Value query column:", nullptr));
+        valueQueryHAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Horizontal alignment:", nullptr));
+        valueQueryHAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        valueQueryHAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Left", nullptr));
+        valueQueryHAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        valueQueryHAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Right", nullptr));
 
-        valueQueryVAlignTextLabel->setText(QApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
-        valueQueryVAlignComboBox->setItemText(0, QApplication::translate("CrossTabEditor", "Normal", nullptr));
-        valueQueryVAlignComboBox->setItemText(1, QApplication::translate("CrossTabEditor", "Top", nullptr));
-        valueQueryVAlignComboBox->setItemText(2, QApplication::translate("CrossTabEditor", "Center", nullptr));
-        valueQueryVAlignComboBox->setItemText(3, QApplication::translate("CrossTabEditor", "Bottom", nullptr));
+        valueQueryVAlignTextLabel->setText(QCoreApplication::translate("CrossTabEditor", "Vertical alignment:", nullptr));
+        valueQueryVAlignComboBox->setItemText(0, QCoreApplication::translate("CrossTabEditor", "Normal", nullptr));
+        valueQueryVAlignComboBox->setItemText(1, QCoreApplication::translate("CrossTabEditor", "Top", nullptr));
+        valueQueryVAlignComboBox->setItemText(2, QCoreApplication::translate("CrossTabEditor", "Center", nullptr));
+        valueQueryVAlignComboBox->setItemText(3, QCoreApplication::translate("CrossTabEditor", "Bottom", nullptr));
 
-        buttonOk->setText(QApplication::translate("CrossTabEditor", "&OK", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonOk->setShortcut(QApplication::translate("CrossTabEditor", "Alt+O", nullptr));
-#endif // QT_NO_SHORTCUT
-        buttonCancel->setText(QApplication::translate("CrossTabEditor", "&Cancel", nullptr));
-#ifndef QT_NO_SHORTCUT
-        buttonCancel->setShortcut(QApplication::translate("CrossTabEditor", "Alt+C", nullptr));
-#endif // QT_NO_SHORTCUT
+        buttonOk->setText(QCoreApplication::translate("CrossTabEditor", "&OK", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonOk->setShortcut(QCoreApplication::translate("CrossTabEditor", "Alt+O", nullptr));
+#endif // QT_CONFIG(shortcut)
+        buttonCancel->setText(QCoreApplication::translate("CrossTabEditor", "&Cancel", nullptr));
+#if QT_CONFIG(shortcut)
+        buttonCancel->setShortcut(QCoreApplication::translate("CrossTabEditor", "Alt+C", nullptr));
+#endif // QT_CONFIG(shortcut)
     } // retranslateUi
 
 };
