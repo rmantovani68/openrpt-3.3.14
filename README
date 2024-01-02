@@ -31,13 +31,19 @@ Manager.
 
 BUILD
 
-fedora:
-
 install the following packages :
+
+fedora:
 
 sudo dnf install qt5-qtbase-devel-5.15.11-7.fc39.x86_64 -y
 sudo dnf install qt5-qtbase-postgresql-5.15.11-7.fc39.x86_64 -y
 sudo dnf install qt5-qttools-* -y
+
+debian:
+
+sudo apt-get install qt5-qtbase-devel-5.15.11-7.fc39.x86_64 -y
+sudo apt-get install qt5-qtbase-postgresql-5.15.11-7.fc39.x86_64 -y
+sudo apt-get install qt5-qttools-* -y
 
 INSTALL:
 sudo ./install.sh
