@@ -11,7 +11,8 @@ MAKEFILE      = Makefile
 EQ            = =
 
 first: make_first
-QMAKE         = /usr/lib/qt5/bin/qmake-qt5
+#QMAKE         = /usr/lib/qt5/bin/qmake-qt5
+QMAKE         = /usr/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
 MKDIR         = mkdir -p
